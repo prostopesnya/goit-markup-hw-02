@@ -2,6 +2,7 @@
     --background-color: #F4F4FD;
     --accent-text-color: #4D5AE5;
     --text-color: #434455;
+    --secondary-text-color: #2E2F42;
     --action-color: #404BBF;
 
 }
@@ -24,7 +25,7 @@ body {
 .header-logo {
     color: var(--accent-text-color);
 font-size: 18px;
-font-family: "Raleway" sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 line-height: 1.17; /* 21px/18 */
 letter-spacing: 0.03em;
@@ -33,11 +34,12 @@ text-transform: uppercase;
 
 
 .header-logo-accent{
-    color: var(--navyblue, #2E2F42);
+    color: var(--secondary-text-color);
+    font-family: "Raleway", sans-serif;
 }
 
 .header-list-link {
-    color: var(--navyblue, #2E2F42);
+    color: var(--secondary-text-color);
 /* Body Medium */
 font-size: 16px;
 font-weight: 500;
@@ -68,7 +70,7 @@ letter-spacing: 0.02em;
 
 
 .hero {
-    background-color: var(--navyblue, #2E2F42);
+    background-color: var(--secondary-text-color);
 }
 .hero-title {
     color: var(--white, #FFF);
@@ -98,7 +100,7 @@ letter-spacing: 0.02em;
 
 
 .advantages-subtitle {
-    color: var(--navyblue, #2E2F42);
+    color: var(--secondary-text-color);
 /* Header 3 */
 font-size: 20px;
 font-weight: 500;
@@ -114,7 +116,8 @@ letter-spacing: 0.02em;
 }
 
 .section-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--secondary-text-color);
+    background-color: #F4F4FD;
 text-align: center;
 /* Header 2 */
 font-size: 36px;
@@ -144,7 +147,7 @@ text-align: center;
 }
 
 .footer{
-    background: var(--navyblue, #2E2F42);
+    background: var(--secondary-text-color);
 
 }
 .footer-logo {
@@ -204,7 +207,7 @@ background: var(--ocean, #404BBF);
 }
 
 .portfolio-title{
-    color: var(--navyblue, #2E2F42);
+    color: var(--secondary-text-color);
 /* Header 3 */
 font-size: 20px;
 font-weight: 500;
@@ -217,4 +220,8 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
 }
