@@ -1,4 +1,88 @@
+
 body {
     font-family:"Roboto", sans-serif;
+    color: var(--slate, #434455);
 }
 
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+.header-logo {
+    color: var(--navyblue, #2E2F42);
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.16; /* 21px/18 */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+
+.header-logo-accent{
+    color: var(--iris, #4D5AE5);
+}
+
+.header-list-link {
+    color: var(--navyblue, #2E2F42);
+/* Body Medium */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-list-link:hover,
+.header-list-link:focus{
+    color: var(--ocean, #404BBF);
+}
+
+
+.hero {
+    background-color: var(--navyblue, #2E2F42);
+}
+.hero-title {
+    color: var(--white, #FFF);
+text-align: center;
+/* Header 1 */
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+.hero-btn {
+    cursor: pointer;
+    background-color: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+   
+}
+.hero-btn:is(:hover,:focus){
+    background-color: var(--ocean, #404BBF);
+}
+
+
+
+.advantages-subtitle {
+    color: var(--navyblue, #2E2F42);
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.advantages-item-text {
+    color: var(--slate, #434455);
+/* Body */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
