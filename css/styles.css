@@ -1,30 +1,18 @@
 :root {
     --background-color: #F4F4FD;
-    --main-text-color: #2E2F42;
+    --accent-text-color: #4D5AE5;
+    --text-color: #434455;
     --action-color: #404BBF;
 
 }
 
 body {
     font-family:"Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
+
 }
 
-
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 .link {
     text-decoration: none;
@@ -34,18 +22,18 @@ body {
 }
 
 .header-logo {
-    color: var(--navyblue, #2E2F42);
+    color: var(--accent-text-color);
 font-size: 18px;
-font-family: Raleway;
+font-family: "Raleway" sans-serif;
 font-weight: 800;
-line-height: 1.16; /* 21px/18 */
+line-height: 1.17; /* 21px/18 */
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 
 .header-logo-accent{
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue, #2E2F42);
 }
 
 .header-list-link {
@@ -131,8 +119,8 @@ text-align: center;
 /* Header 2 */
 font-size: 36px;
 font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.72px;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
@@ -160,17 +148,17 @@ text-align: center;
 
 }
 .footer-logo {
-    color: var(--cloud, #F4F4FD);
+    color: var(--accent-text-color);
 font-size: 18px;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.54px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .footer-logo-accent {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris, #f4f4fd);
 font-size: 18px;
 font-family: Raleway;
 font-weight: 800;
@@ -195,7 +183,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-border-radius: 4px;
 border: 1px solid var(--cornflower, #E7E9FC);
 background: var(--cloud, #F4F4FD);
 }
@@ -208,11 +195,12 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-border-radius: 4px;
 background: var(--ocean, #404BBF);
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
+.portfolio-section{
+    background-color: #F4F4FD;
+}
 
 .portfolio-title{
     color: var(--navyblue, #2E2F42);
