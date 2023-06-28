@@ -128,7 +128,7 @@ text-transform: capitalize;
 }
 
 .local-title{
-    color: var(--main-text-color);
+    color: var(--secondary-text-color);
 /* Header 3 */
 font-size: 20px;
 font-weight: 500;
@@ -224,4 +224,8 @@ letter-spacing: 0.02em;
 
 .team-list-item{
     background-color: #FFFFFF;
+}
+
+.team-section {
+    background-color: #F4F4FD;
 }
